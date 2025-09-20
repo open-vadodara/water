@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import os
 
-URL = "https://vmc.gov.in/RainFallLevelSensor.aspx"
+URL = "https://vmc.gov.in/RainFallLevelSensor/RainLevel.aspx"
 JSON_FILE = "rainfall_data.json"
 
 def scrape_table():
